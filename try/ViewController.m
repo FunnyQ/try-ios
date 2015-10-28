@@ -29,6 +29,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     _arrPoet = @[@"床前明月光", @"疑是地上霜", @"舉頭望明月", @"低頭思故鄉"];
     _poetStatus = 0;
+    _labelContainer.text = _arrPoet[_poetStatus];
 }
 
 
